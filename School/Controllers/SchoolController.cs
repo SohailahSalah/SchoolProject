@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client.NativeInterop;
 using SchoolProject.Data;
 using SchoolProject.Models;
+using SchoolProject.Models.DTOs;
 using System.Collections;
 
 namespace SchoolProject.Controllers
@@ -40,6 +41,24 @@ namespace SchoolProject.Controllers
             await _context.Schools.AddAsync(school);
             await _context.SaveChangesAsync();
             return Created();
+        }
+        [HttpPost("CreateNewSchoolByDTO")]
+        public async Task<IActionResult> CreateNewSchool([FromBody] SchoolDTO schoolDTO)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var school = new School 
+            { 
+                Name = schoolDTO.Name,
+                Address = schoolDTO.Address,
+                NumOfClasses = schoolDTO.NumOfClasses
+            };
+
+            await _context.Schools.AddAsync(school);
+            await _context.SaveChangesAsync();
+            return Ok(school);
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateSchool(int id, School newSchool)

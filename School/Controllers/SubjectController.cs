@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SchoolProject.Data;
 using SchoolProject.Models;
+using SchoolProject.Models.DTOs;
 
 namespace SchoolProject.Controllers
 {
@@ -38,6 +39,25 @@ namespace SchoolProject.Controllers
             await _context.SaveChangesAsync();
             return Ok(subject);
         }
+        [HttpPost("CreateNewSubject_UsingDTO")]
+        public async Task<IActionResult> CreateNewSubject([FromBody] SubjectDTO subjectDTO)
+        {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var subject = new Subject
+            {
+                Name = subjectDTO.Name,
+                Content = subjectDTO.Content,
+                Grade = subjectDTO.Grade
+            };
+
+            await _context.Subjects.AddAsync(subject);
+            await _context.SaveChangesAsync();
+            return Ok(subject);
+        }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateSubject(Subject NewSubject, int id)
         {

@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\DEPI\\Net\\API\\School\\School\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|d:\\depi\\net\\api\\school\\school\\school\\models\\mappers\\teachermappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|solutionrelative:school\\models\\mappers\\teachermappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|d:\\depi\\net\\api\\school\\school\\school\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|solutionrelative:school\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|d:\\depi\\net\\api\\school\\school\\school\\models\\mappers\\subjectmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|solutionrelative:school\\models\\mappers\\subjectmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|d:\\depi\\net\\api\\school\\school\\school\\models\\mappers\\schoolmappper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|solutionrelative:school\\models\\mappers\\schoolmappper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|d:\\depi\\net\\api\\school\\school\\school\\models\\mappers\\studentmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|solutionrelative:school\\models\\mappers\\studentmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|d:\\depi\\net\\api\\school\\school\\school\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E21E01-63C8-04D7-4476-BB1C594C4FE4}|School\\SchoolProject.csproj|solutionrelative:school\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TeacherMappers.cs",
-              "DocumentMoniker": "D:\\DEPI\\Net\\API\\School\\School\\School\\Models\\Mappers\\TeacherMappers.cs",
-              "RelativeDocumentMoniker": "School\\Models\\Mappers\\TeacherMappers.cs",
-              "ToolTip": "D:\\DEPI\\Net\\API\\School\\School\\School\\Models\\Mappers\\TeacherMappers.cs",
-              "RelativeToolTip": "School\\Models\\Mappers\\TeacherMappers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T10:44:14.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SubjectMappers.cs",
-              "DocumentMoniker": "D:\\DEPI\\Net\\API\\School\\School\\School\\Models\\Mappers\\SubjectMappers.cs",
-              "RelativeDocumentMoniker": "School\\Models\\Mappers\\SubjectMappers.cs",
-              "ToolTip": "D:\\DEPI\\Net\\API\\School\\School\\School\\Models\\Mappers\\SubjectMappers.cs",
-              "RelativeToolTip": "School\\Models\\Mappers\\SubjectMappers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "D:\\DEPI\\Net\\API\\School\\School\\School\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "School\\Controllers\\SubjectController.cs",
+              "ToolTip": "D:\\DEPI\\Net\\API\\School\\School\\School\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "School\\Controllers\\SubjectController.cs",
+              "ViewState": "AgIAACcAAABAMjMzM3MlwA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T10:42:19.071Z",
+              "WhenOpened": "2026-10-24T23:32:43.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SchoolMappper.cs",
-              "DocumentMoniker": "D:\\DEPI\\Net\\API\\School\\School\\School\\Models\\Mappers\\SchoolMappper.cs",
-              "RelativeDocumentMoniker": "School\\Models\\Mappers\\SchoolMappper.cs",
-              "ToolTip": "D:\\DEPI\\Net\\API\\School\\School\\School\\Models\\Mappers\\SchoolMappper.cs",
-              "RelativeToolTip": "School\\Models\\Mappers\\SchoolMappper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "D:\\DEPI\\Net\\API\\School\\School\\School\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "School\\Controllers\\TeacherController.cs",
+              "ToolTip": "D:\\DEPI\\Net\\API\\School\\School\\School\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "School\\Controllers\\TeacherController.cs",
+              "ViewState": "AgIAACUAAAAAZmZmZmb2vzgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T10:33:45.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentMappers.cs",
-              "DocumentMoniker": "D:\\DEPI\\Net\\API\\School\\School\\School\\Models\\Mappers\\StudentMappers.cs",
-              "RelativeDocumentMoniker": "School\\Models\\Mappers\\StudentMappers.cs",
-              "ToolTip": "D:\\DEPI\\Net\\API\\School\\School\\School\\Models\\Mappers\\StudentMappers.cs",
-              "RelativeToolTip": "School\\Models\\Mappers\\StudentMappers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T10:39:23.402Z",
+              "WhenOpened": "2026-10-24T22:33:20.373Z",
               "EditorCaption": ""
             }
           ]

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SchoolProject.Data;
 using SchoolProject.Models;
+using SchoolProject.Models.DTOs;
 
 namespace SchoolProject.Controllers
 {
@@ -29,6 +30,30 @@ namespace SchoolProject.Controllers
             {
                 return NotFound();
             }
+            return Ok(teacher);
+        }
+        [HttpPost]
+        public async Task<IActionResult> AddNewTeacher(Teacher teacher)
+        {
+            await _context.Teachers.AddAsync(teacher);
+            await _context.SaveChangesAsync();
+            return Created();
+        }
+        [HttpPost("CreateNewTeacherUsingDTO")]
+        public async Task<IActionResult> CreateNewTeacher([FromBody] TeacherDTO teacherDTO )
+        {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var teacher = new Teacher
+            {
+                Name = teacherDTO.Name,
+                IsAvailable = teacherDTO.IsAvailable,
+                Sessions = teacherDTO.Sessions
+            };
+            await _context.Teachers.AddAsync(teacher);
+            await _context.SaveChangesAsync();
             return Ok(teacher);
         }
         [HttpPut("{id}")]
