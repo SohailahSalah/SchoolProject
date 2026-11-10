@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SchoolProject.Data;
+using SchoolProject.DTOs.Student;
 using SchoolProject.Models;
-using SchoolProject.Models.DTOs;
 
 namespace SchoolProject.Controllers
 {
@@ -40,7 +40,7 @@ namespace SchoolProject.Controllers
             return Ok(student);
         }
         [HttpPost("CreateNewStudentUsingDTO")]
-        public async Task<IActionResult> CraeteNewStydent([FromBody] StudentDTO studentDTO)
+        public async Task<IActionResult> CraeteNewStudent([FromBody] StudentDTO studentDTO)
         {
             if (!ModelState.IsValid)
             {

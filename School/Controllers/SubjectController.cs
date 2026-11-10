@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SchoolProject.Data;
+using SchoolProject.DTOs.Subject;
 using SchoolProject.Models;
-using SchoolProject.Models.DTOs;
 
 namespace SchoolProject.Controllers
 {

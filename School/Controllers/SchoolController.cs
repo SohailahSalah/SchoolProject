@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client.NativeInterop;
 using SchoolProject.Data;
+using SchoolProject.DTOs.School;
 using SchoolProject.Models;
-using SchoolProject.Models.DTOs;
 using System.Collections;
 
 namespace SchoolProject.Controllers
